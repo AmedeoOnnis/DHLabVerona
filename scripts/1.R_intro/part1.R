@@ -40,12 +40,16 @@ my_list
 my_df <- data.frame(author = c("Shakespeare", "Dante", "Cervantes", "Pynchon"), nationality = c("English", "Italian", "Spanish", "American"))
 View(my_df)
 
+my_new_df <- data.frame(nome = c("Luca", "Andrea", "Giulio"), nationality = c("Italian", "Italian", "Italian"))
+View(my_new_df)
+
 ### Your Turn (1) - start
 
 # create a new list with the same content of the dataframe (authors and nationalities)
 # please write the code immediately down here (in the empty space) 
 # save the file, and then push to the GitHub repo 
 
+my_new_list <- list(my_new_df)
 
 
 ### Your Turn (1) - end
